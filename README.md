@@ -1,6 +1,12 @@
-Proof AMP Smart-Contract Interfaces Repository
+##Proof AMP Smart-Contract Interfaces Repository
 
-Contracts deployed on Rinkeby: 
+To install the corresponding npm repository, use the github remote url:
+```
+npm install https://github.com/ProofSuite/proof-contract-interfaces
+```
+
+###Contracts deployed on Rinkeby: 
+
 CryptoFiatHub: 0xd0de1979e04b70733f8335133630c05e98d059cd
 CryptoDollar: 0x3961891863867e6a700170cab634e32795935669
 Rewards: 0xd4e3ae546e43cbd15750274f1a1bf89a9ce90e00

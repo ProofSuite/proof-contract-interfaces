@@ -1,0 +1,24 @@
+{
+  "name": "proof-contracts-interfaces",
+  "version": "1.0.0",
+  "description": "Proof AMP Smart Contracts Interfacts Repository",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ProofSuite/proof-contract-interfaces.git"
+  },
+  "keywords": [
+    "smart-contracts",
+    "interfaces",
+    "proof"
+  ],
+  "author": "david@proofsuite.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ProofSuite/proof-contract-interfaces/issues"
+  },
+  "homepage": "https://github.com/ProofSuite/proof-contract-interfaces#readme"
+}

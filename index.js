@@ -1,11 +1,9 @@
 module.exports = {
-  cryptoDollar: {
-    CryptoDollar: require('./cryptodollar-a/CryptoDollar.json'),
-    CryptoFiatHub: require('./cryptodollar-a/CryptoFiatHub.json'),
-    Rewards: require('./cryptodollar-a/Rewards.json'),
-    Store: require('./cryptodollar-a/Store.json')
-  },
-  cryptoDollarB: {
+  CryptoDollar: require('./cryptodollar-a/CryptoDollar.json'),
+  CryptoFiatHub: require('./cryptodollar-a/CryptoFiatHub.json'),
+  Rewards: require('./cryptodollar-a/Rewards.json'),
+  Store: require('./cryptodollar-a/Store.json'),
+  CryptoDollarBis: {
     CryptoDollar: require('./cryptodollar-b/CryptoDollar.json'),
     CryptoFiatHub: require('./cryptodollar-b/CryptoFiatHub.json'),
     Rewards: require('./cryptodollar-b/Rewards.json'),

@@ -1,5 +1,5 @@
 module.exports = {
-  cryptoDollarA: {
+  cryptoDollar: {
     CryptoDollar: require('./cryptodollar-a/CryptoDollar.json'),
     CryptoFiatHub: require('./cryptodollar-a/CryptoFiatHub.json'),
     Rewards: require('./cryptodollar-a/Rewards.json'),

@@ -28423,13 +28423,13 @@
     "8888": {
       "events": {},
       "links": {
-        "RewardsStorageProxy": "0xe882843d51a67b0fe2fc2c793bdb1562c0707895",
-        "CryptoFiatStorageProxy": "0xed5f584bef4d6244b1f88163f3f5774cdec60dcf"
+        "RewardsStorageProxy": "0xed5f584bef4d6244b1f88163f3f5774cdec60dcf",
+        "CryptoFiatStorageProxy": "0xcef76edf30bbd5d0341edb44b2a6bc0b9c551a63"
       },
-      "address": "0xc89bba87b12f6ca19652d6de2fe0846a20f8b4e7",
-      "transactionHash": "0x42a3a93a32bb1dd7086cb8e1656b8ecbb069e2ae3e41859275a3e4d1fba3de21"
+      "address": "0xf69a1e542cca358e90897884366117675b0cbf7b",
+      "transactionHash": "0x33b4935e4c19ca74a61d5f5624958d1de7801b609c7ccc193cf861b9e0adbb6f"
     }
   },
   "schemaVersion": "2.0.0",
-  "updatedAt": "2018-05-11T16:47:04.674Z"
+  "updatedAt": "2018-06-13T03:05:41.021Z"
 }

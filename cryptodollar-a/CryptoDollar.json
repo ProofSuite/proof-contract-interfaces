@@ -9159,12 +9159,12 @@
     "8888": {
       "events": {},
       "links": {
-        "CryptoDollarStorageProxy": "0xcef76edf30bbd5d0341edb44b2a6bc0b9c551a63"
+        "CryptoDollarStorageProxy": "0xfc20d5e44f0032b7fb079b4e868d36b698c956b8"
       },
-      "address": "0x2bc811ef0dae8b1ecefe8e43664c4536e5c48bac",
-      "transactionHash": "0xb0c91fb6dfe90c54a93bba88b81cbd90ac4fadbe2433d2ad66492401b7dda3d9"
+      "address": "0x8e68c083c6f7784bf35a12d5a31f7587274d407c",
+      "transactionHash": "0x57fd9be772eee03e85ed3c6cc0ec1a93227f1a70aaf385e5d9ad8508c10f0bff"
     }
   },
   "schemaVersion": "2.0.0",
-  "updatedAt": "2018-05-11T16:47:04.632Z"
+  "updatedAt": "2018-06-13T03:05:40.945Z"
 }

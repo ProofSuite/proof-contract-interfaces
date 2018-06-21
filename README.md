@@ -49,3 +49,37 @@ npm install https://github.com/ProofSuite/proof-contract-interfaces
 
 TODO
 
+
+## Usage
+
+#### Import an exchange contract
+```
+import { Exchange } from 'proof-contracts-interfaces'
+```
+
+- The abi of the contract is accessible through the .abi field of the provided object. 
+- If required, the address of the contract is accessible through the address field of the provided object
+
+- Note: This only imports the contract interfaces and you will need to create the contract instance yourself by using
+an appropriate library. 
+
+#### Import any of the ERC20 Tokens 
+```
+import { ERC20Token } from 'proof-contract-interfaces'
+```
+
+In this case the address field will not be set and you will need to provide your own address when instantiating 
+the contract
+
+#### Import a specific Token1
+```
+import { Token1 } from 'proof-contract-interfaces'
+```
+
+The address of that token will then be accessible through the .address field.
+
+
+
+### Network ID
+
+The network ID for this test network is 1000

@@ -9,10 +9,12 @@ npm install https://github.com/ProofSuite/proof-contract-interfaces
 
 ### Contracts deployed on Private Geth Chain
 
-* Exchange: 0x9836f8141f96fca273a0c4bf70af99cb9da58796
-* Token1: 0x8d0a722b76c0dcb91bf62334afd11f925c0adb95
-* Token2: 0x2eb24432177e82907de24b7c5a6e0a5c03226135
-* Token3: 0xc73eec564e96e6653943d6d0e32121d455917653
+* Exchange: 0x7cc4b1851c35959d34e635a470f6b5c43ba3c9c9
+* Migrations: 0x0f5ea0a652e851678ebf77b69484bfcd31f9459b
+* Token1: 0xc4c7497fbe1a886841a195a5d622cd60053c1376
+* Token2: 0x9c47796bc1e469a60dcbf680273ff011e45a1327
+* Token3: 0x69bd17ead2202072ae4a117b036305a94ccf2e06
+* WETH: 0x85a84691547b7ccf19d7c31977a7f8c0af1fb25a
 
 
 ## CryptoDollar (Version with Oraclize Price Feed)
@@ -71,14 +73,19 @@ import { ERC20Token } from 'proof-contract-interfaces'
 In this case the address field will not be set and you will need to provide your own address when instantiating 
 the contract
 
-#### Import a specific Token1
+#### Import a specific Token
 ```
 import { Token1 } from 'proof-contract-interfaces'
 ```
 
-The address of that token will then be accessible through the .address field.
+The address of that token will then be accessible through the .address field. There are currently three 
+tokens deployed with a predefined amount that has been sent to each of the main addresses.
 
+#### Import WETH Contract
 
+```
+import { WETH } from 'proof-contract-interfaces'
+```
 
 ### Network ID
 
